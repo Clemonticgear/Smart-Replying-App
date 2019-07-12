@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sid2Activity">
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Select Contacts"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="75dp"
+        android:drawableLeft="@drawable/ic_contacts_black_24dp"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Favourite Contacts"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:drawableLeft="@drawable/ic_favorite_black_24dp"
+        />
+
+</LinearLayout>
